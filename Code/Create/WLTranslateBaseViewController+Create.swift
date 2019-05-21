@@ -10,7 +10,7 @@ import Foundation
 
 
 extension WLTranslateBaseViewController {
-    
+    @objc (createTranslateWithStyle:andConfig:) 
     public static func createTranslate(_ style: WLTranslateStyle ,config: WLTranslateConfig) -> WLTranslateBaseViewController {
         
         switch style {
