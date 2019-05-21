@@ -1,0 +1,134 @@
+PODS:
+  - Alamofire (4.8.2)
+  - ObjectMapper (3.4.2)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (5.0.0)
+  - SVProgressHUD (2.2.5)
+  - WLBaseResult (0.0.2):
+    - ObjectMapper
+  - WLBaseViewController (1.2.0):
+    - WLBaseViewController/BaseViewController (= 1.2.0)
+    - WLBaseViewController/Config (= 1.2.0)
+    - WLBaseViewController/Inner (= 1.2.0)
+    - WLBaseViewController/Loading (= 1.2.0)
+    - WLBaseViewController/Navi (= 1.2.0)
+    - WLBaseViewController/Orientation (= 1.2.0)
+    - WLBaseViewController/Tab (= 1.2.0)
+  - WLBaseViewController/BaseViewController (1.2.0):
+    - WLBaseViewController/Config
+    - WLBaseViewController/Navi/NaviController
+  - WLBaseViewController/Config (1.2.0)
+  - WLBaseViewController/Inner (1.2.0):
+    - WLBaseViewController/Loading
+    - WLToolsKit/Common
+    - WLToolsKit/Then
+  - WLBaseViewController/Loading (1.2.0):
+    - WLBaseViewController/BaseViewController
+    - WLBaseViewController/Config
+    - WLToolsKit/Color
+    - WLToolsKit/Common
+    - WLToolsKit/Then
+  - WLBaseViewController/Navi (1.2.0):
+    - WLBaseViewController/Navi/NaviConfig (= 1.2.0)
+    - WLBaseViewController/Navi/NaviController (= 1.2.0)
+    - WLBaseViewController/Navi/NaviItem (= 1.2.0)
+  - WLBaseViewController/Navi/NaviConfig (1.2.0)
+  - WLBaseViewController/Navi/NaviController (1.2.0):
+    - WLBaseViewController/Navi/NaviConfig
+    - WLBaseViewController/Navi/NaviItem
+    - WLBaseViewController/Orientation
+    - WLToolsKit/Color
+    - WLToolsKit/NaviBar
+  - WLBaseViewController/Navi/NaviItem (1.2.0):
+    - WLToolsKit/Then
+  - WLBaseViewController/Orientation (1.2.0)
+  - WLBaseViewController/Tab (1.2.0):
+    - WLBaseViewController/Config
+    - WLBaseViewController/Navi/NaviController
+    - WLBaseViewController/Orientation
+    - WLToolsKit/Color
+  - WLBaseViewModel (1.0.4)
+  - WLReqKit (0.1.4):
+    - WLReqKit/Error (= 0.1.4)
+    - WLReqKit/Func (= 0.1.4)
+    - WLReqKit/RXReq (= 0.1.4)
+  - WLReqKit/Error (0.1.4):
+    - Alamofire
+    - ObjectMapper
+  - WLReqKit/Func (0.1.4):
+    - Alamofire
+    - RxSwift
+    - WLReqKit/Error
+    - WLReqKit/RXReq
+    - WLToolsKit/Image
+  - WLReqKit/RXReq (0.1.4):
+    - Alamofire
+  - WLThirdUtil/Hud (0.0.5):
+    - SVProgressHUD
+  - WLToolsKit/Color (1.3.1):
+    - WLToolsKit/String
+  - WLToolsKit/Common (1.3.1):
+    - WLToolsKit/Date
+  - WLToolsKit/Date (1.3.1)
+  - WLToolsKit/Image (1.3.1):
+    - WLToolsKit/Color
+    - WLToolsKit/Common
+  - WLToolsKit/NaviBar (1.3.1)
+  - WLToolsKit/String (1.3.1)
+  - WLToolsKit/Then (1.3.1)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SnapKit
+  - WLBaseResult
+  - WLBaseViewController
+  - WLBaseViewModel
+  - WLReqKit
+  - WLThirdUtil/Hud
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ObjectMapper
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - WLBaseResult
+    - WLBaseViewController
+    - WLBaseViewModel
+    - WLReqKit
+    - WLThirdUtil
+    - WLToolsKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WLBaseResult: 6b04ce13c2ee78ae7a08a5924d78dbf093c52e9c
+  WLBaseViewController: 8b7fe09e1d536a15adbc5610b9cf8f909fdb5b80
+  WLBaseViewModel: 19ba0b2b0a03c37a6e671a6a7b193562f2953ddf
+  WLReqKit: 132aa67f9a823f841c09be3eaaa07f3b7e14f72a
+  WLThirdUtil: 434579e096132fbdbc7ee54547bb51c001819506
+  WLToolsKit: f9b5e33ec37bc4a27285a9f8d21d11de8073449d
+
+PODFILE CHECKSUM: b23f42c2af2950bc1b80eabcb21a9785e5f106d5
+
+COCOAPODS: 1.7.0.beta.3

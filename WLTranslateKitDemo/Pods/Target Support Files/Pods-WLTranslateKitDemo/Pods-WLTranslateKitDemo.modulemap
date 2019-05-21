@@ -1,0 +1,6 @@
+module Pods_WLTranslateKitDemo {
+  umbrella header "Pods-WLTranslateKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

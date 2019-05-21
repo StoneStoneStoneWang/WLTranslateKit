@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WLTranslateKitDemo' do
+  
+  pod 'WLReqKit'
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  
+  pod 'WLBaseViewModel'
+  
+  pod 'RxGesture'
+  
+  pod 'WLBaseResult'
+  
+  pod 'WLBaseViewController'
+  
+  pod 'WLThirdUtil/Hud'
+  
+  pod 'SnapKit'
+  
+end
