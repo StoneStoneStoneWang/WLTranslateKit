@@ -23,7 +23,5 @@ class ViewController: UIViewController {
         vc.view.frame = view.bounds
         
     }
-    
-    
 }
 

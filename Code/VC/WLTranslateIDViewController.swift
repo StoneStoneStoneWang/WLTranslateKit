@@ -56,6 +56,8 @@ public class WLTranslateIDViewController: WLTranslateBaseViewController {
             make.height.equalTo((WL_SCREEN_HEIGHT - WL_TOP_LAYOUT_GUARD - WL_TABBAR_HEIGHT) / 2 )
         }
         
+        to.text = "Mangga mlebu agensi."
+        
         if let config = config {
             
             translateItem.setBackgroundImage(UIImage.colorTransformToImage(color: WLHEXCOLOR(hexColor: config.itemColor)), for: .normal)

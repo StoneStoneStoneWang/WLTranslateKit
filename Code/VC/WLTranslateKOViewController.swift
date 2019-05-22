@@ -55,6 +55,8 @@ public class WLTranslateKOViewController: WLTranslateBaseViewController {
             make.height.equalTo((WL_SCREEN_HEIGHT - WL_TOP_LAYOUT_GUARD - WL_TABBAR_HEIGHT) / 2 )
         }
         
+        to.text = "번역 내용을 입력하십시오"
+        
         if let config = config {
             
             translateItem.setBackgroundImage(UIImage.colorTransformToImage(color: WLHEXCOLOR(hexColor: config.itemColor)), for: .normal)
