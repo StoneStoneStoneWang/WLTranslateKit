@@ -14,7 +14,7 @@ import WLBaseViewController
 class WLCCCCC: WLTranslateConfig {
     var itemColor: String { return "#333333"}
     
-    var speakIcon: String { return ""}
+    var speakIcon: String { return "关于我们" }
 }
 
 class WLNNNNN: WLNaviControllerConfig {
@@ -28,6 +28,7 @@ class WLNNNNN: WLNaviControllerConfig {
     
     var NaviBackground_HEXColor: String { return "#333333"}
 }
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

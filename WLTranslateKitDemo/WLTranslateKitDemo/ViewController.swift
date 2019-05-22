@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let vc = WLTranslateBaseViewController.createTranslate(.id, config: WLCCCCC())
+        let vc = WLTranslateBaseViewController.createTranslate(.ko, config: WLCCCCC())
         
         view.addSubview(vc.view)
         
